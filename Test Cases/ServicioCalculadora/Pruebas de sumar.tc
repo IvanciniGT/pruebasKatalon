@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Pruebas de sumar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>34250b96-a144-4cd5-95f6-41c40fc3d59b</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>d3c80c43-7e38-4d17-88b6-10c718b7b9fb</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/NumeroDePrueba/Numeros de prueba</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>d3c80c43-7e38-4d17-88b6-10c718b7b9fb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>numero1</value>
+      <variableId>a81e62a4-46c1-4df4-8fbf-2083195b5c94</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d3c80c43-7e38-4d17-88b6-10c718b7b9fb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>numero2</value>
+      <variableId>1d0d2aa8-960a-4ddf-86b8-2647b7f82bd8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>d3c80c43-7e38-4d17-88b6-10c718b7b9fb</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>suma</value>
+      <variableId>4442247b-a434-4655-9e06-520441779149</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>3</defaultValue>
+      <description></description>
+      <id>a81e62a4-46c1-4df4-8fbf-2083195b5c94</id>
+      <masked>false</masked>
+      <name>numeroA</name>
+   </variable>
+   <variable>
+      <defaultValue>-2</defaultValue>
+      <description></description>
+      <id>1d0d2aa8-960a-4ddf-86b8-2647b7f82bd8</id>
+      <masked>false</masked>
+      <name>numeroB</name>
+   </variable>
+   <variable>
+      <defaultValue>1</defaultValue>
+      <description></description>
+      <id>4442247b-a434-4655-9e06-520441779149</id>
+      <masked>false</masked>
+      <name>resultadoSuma</name>
+   </variable>
+</TestCaseEntity>
