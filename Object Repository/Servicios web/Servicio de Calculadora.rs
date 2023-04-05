@@ -7,7 +7,7 @@
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>-1</connectionTimeout>
+   <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -29,7 +29,7 @@
       <webElementGuid>6eba2316-0401-485d-9dbd-d9fa9d94370b</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.6.0</katalonVersion>
-   <maxResponseSize>-1</maxResponseSize>
+   <maxResponseSize>0</maxResponseSize>
    <restRequestMethod></restRequestMethod>
    <restUrl></restUrl>
    <serviceType>SOAP</serviceType>
@@ -37,8 +37,8 @@
    &lt;soapenv:Header/>
    &lt;soapenv:Body>
       &lt;tem:Add>
-         &lt;tem:intA>3&lt;/tem:intA>
-         &lt;tem:intB>4&lt;/tem:intB>
+         &lt;tem:intA>${numero1}&lt;/tem:intA>
+         &lt;tem:intB>${numero2}&lt;/tem:intB>
       &lt;/tem:Add>
    &lt;/soapenv:Body>
 &lt;/soapenv:Envelope></soapBody>
@@ -46,8 +46,22 @@
    <soapRequestMethod>SOAP</soapRequestMethod>
    <soapServiceEndpoint>http://www.dneonline.com/calculator.asmx</soapServiceEndpoint>
    <soapServiceFunction>Add</soapServiceFunction>
-   <socketTimeout>-1</socketTimeout>
+   <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>false</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>4</defaultValue>
+      <description></description>
+      <id>4579c5f2-0091-463d-9c05-65991924796e</id>
+      <masked>false</masked>
+      <name>numero1</name>
+   </variables>
+   <variables>
+      <defaultValue>5</defaultValue>
+      <description></description>
+      <id>421adda3-ffd7-4f65-a491-65ffc59814e4</id>
+      <masked>false</masked>
+      <name>numero2</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
