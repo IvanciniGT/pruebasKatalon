@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Pruebas de login,Chrome 111.0.0.0,,,2023-04-05 11:58:46,2023-04-05 11:59:54,"1m - 8,073s",FAILED
+,,,,,,,
+Test Cases/Web reserva de citas/Formulario de Login/Login Autogenerado,Chrome 111.0.0.0,,,2023-04-05 11:58:47,2023-04-05 11:59:01,"14,493s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,,,2023-04-05 11:58:48,2023-04-05 11:58:53,"5,124s",PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 111.0.0.0,,,2023-04-05 11:58:53,2023-04-05 11:58:54,"1,674s",PASSED
+"click(findTestObject(""Object Repository/Web reserva de citas/Objetos generados automaticamente/Page_CURA Healthcare Service/a_Make Appointment""))",Chrome 111.0.0.0,,,2023-04-05 11:58:54,2023-04-05 11:58:56,"1,215s",PASSED
+"setText(findTestObject(""Object Repository/Web reserva de citas/Objetos generados automaticamente/Page_CURA Healthcare Service/input_Username_username""), ""John Doe"")",Chrome 111.0.0.0,,,2023-04-05 11:58:56,2023-04-05 11:58:57,"1,390s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Web reserva de citas/Objetos generados automaticamente/Page_CURA Healthcare Service/input_Password_password""), ""g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"")",Chrome 111.0.0.0,,,2023-04-05 11:58:57,2023-04-05 11:58:58,"0,780s",PASSED
+"click(findTestObject(""Object Repository/Web reserva de citas/Objetos generados automaticamente/Page_CURA Healthcare Service/button_Login""))",Chrome 111.0.0.0,,,2023-04-05 11:58:58,2023-04-05 11:58:59,"1,033s",PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Web reserva de citas/Objetos generados automaticamente/Page_CURA Healthcare Service/h2_Make Appointment""), 0)",Chrome 111.0.0.0,,,2023-04-05 11:58:59,2023-04-05 11:58:59,"0,531s",PASSED
+"verifyElementText(findTestObject(""Object Repository/Web reserva de citas/Objetos generados automaticamente/Page_CURA Healthcare Service/h2_Make Appointment""), ""Make Appointment"")",Chrome 111.0.0.0,,,2023-04-05 11:58:59,2023-04-05 11:59:00,"0,445s",PASSED
+closeBrowser(),Chrome 111.0.0.0,,,2023-04-05 11:59:00,2023-04-05 11:59:01,"1,401s",PASSED
+,,,,,,,
+Test Cases/Web reserva de citas/Formulario de Login/Login con usuario correccto,Chrome 111.0.0.0,,,2023-04-05 11:59:01,2023-04-05 11:59:13,"11,335s",PASSED
+"openBrowser("""")",Chrome 111.0.0.0,"Abro el navegador
+",,2023-04-05 11:59:02,2023-04-05 11:59:04,"1,940s",PASSED
+try,Chrome 111.0.0.0,,,2023-04-05 11:59:04,2023-04-05 11:59:11,"6,866s",PASSED
+Finally,Chrome 111.0.0.0,,,2023-04-05 11:59:11,2023-04-05 11:59:12,"1,298s",PASSED
+"verifyEqual(titulo_formulario_citas, ""Make Appointment"")",Chrome 111.0.0.0,ME aseguro que el formulario tiene el título correcto. Que estoy en el formulario que quiero estar,,2023-04-05 11:59:12,2023-04-05 11:59:13,"0,112s",PASSED
+"verifyEqual(texto_enlace_logout, ""Logout"")",Chrome 111.0.0.0,Me aseguro que la entrada de logout tiene el texto adecuado,,2023-04-05 11:59:13,2023-04-05 11:59:13,"0,005s",PASSED
+,,,,,,,
+Test Cases/Web reserva de citas/Formulario de Login/Login con usuario incorrecto,Chrome 111.0.0.0,,,2023-04-05 11:59:44,2023-04-05 11:59:54,"9,906s",FAILED
+"openBrowser("""")",Chrome 111.0.0.0,"Abro el navegador
+",,2023-04-05 11:59:44,2023-04-05 11:59:46,"1,804s",PASSED
+try,Chrome 111.0.0.0,,,2023-04-05 11:59:46,2023-04-05 11:59:53,"6,801s",FAILED
+Finally,Chrome 111.0.0.0,,,2023-04-05 11:59:53,2023-04-05 11:59:54,"1,186s",PASSED
